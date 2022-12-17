@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: head;
+  src: url(Fonts/Tangerine-Bold.ttf);
+}
+
+header {
+  height: 200px;
+}
+#image {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  border: 1px solid black;
+}
+#headimage {
+  width: 100%;
+}
+#mainhead {
+  position: absolute;
+  font-family: head;
+  color: blanchedalmond;
+  font-size: 120px;
+  top: 0;
+  left: 80vh;
+  text-decoration: underline;
+}
